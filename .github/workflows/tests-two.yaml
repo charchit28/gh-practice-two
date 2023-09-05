@@ -14,4 +14,6 @@ jobs:
           java-version: '17'
 
       - name: Install Dependencies
-        run:  echo "MAVEN"
+        run:  mvn clean
+      - name: Run Tests
+        run: mvn test
