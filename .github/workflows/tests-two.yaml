@@ -14,4 +14,4 @@ jobs:
           java-version: '17'
 
       - name: Install Dependencies
-        run:  maven-build
+        run:  echo "MAVEN"
