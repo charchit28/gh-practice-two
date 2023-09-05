@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
+        run: echo "GET CODE"
       - name: Download dependencies
+        run: echo "Download dependencies"
