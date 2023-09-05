@@ -1,0 +1,8 @@
+name: Github actions second workflow
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Code
+      - name: Download dependencies
