@@ -26,10 +26,9 @@ jobs:
       - name: Get Code
         uses: actions/checkout@v4
         with:
-          # Disabling shallow clone is recommended for improving relevancy of reporting
           fetch-depth: 0
-            - name: SonarQube Scan
-              uses: sonarsource/sonarqube-scan-action@master
+      -  name: SonarQube Scan
+         uses: sonarsource/sonarqube-scan-action@master
 
   deploy:
     needs:
