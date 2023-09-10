@@ -1,4 +1,4 @@
-name: Github actions second workflow
+name: Github actions Third workflow
 on:
   pull_request:
     types:
