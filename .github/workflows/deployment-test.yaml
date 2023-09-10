@@ -1,12 +1,5 @@
 name: Github actions second workflow
-on:
-  pull_request:
-    types:
-      - opened
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+on: [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
